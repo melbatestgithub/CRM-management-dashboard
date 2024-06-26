@@ -12,7 +12,7 @@ export default function AssignIssue() {
   const [selectedIssueId, setSelectedIssueId] = useState(null);
   const [priority, setPriority] = useState(""); // Add state for priority
 
-  const baseUrl = "http://localhost:5600/api";
+  const baseUrl = "https://it-issue-tracking-api.onrender.com/api";
 
   useEffect(() => {
     getIssue();
