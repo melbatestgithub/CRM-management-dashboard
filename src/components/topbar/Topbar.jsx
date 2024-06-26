@@ -28,7 +28,7 @@ export default function Topbar() {
   useEffect(() => {
     const fetchNotificationCount = async () => {
       try {
-        const response = await axios.get('http://localhost:5600/api/users/newly-registered');
+        const response = await axios.get('https://it-issue-tracking-api.onrender.com/api/users/newly-registered');
         setNotificationCount(response.data.length);
       } catch (error) {
         console.error('Error fetching notification count:', error);
