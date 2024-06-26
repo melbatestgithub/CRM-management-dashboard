@@ -11,7 +11,7 @@ import Modal from 'react-modal';
 Modal.setAppElement('#root');  // Important for accessibility
 
 export default function ITStaff() {
-  const baseUrl = "http://localhost:5600/api";
+  const baseUrl = "https://it-issue-tracking-api.onrender.com/api";
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
