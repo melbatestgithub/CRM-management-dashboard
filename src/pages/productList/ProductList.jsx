@@ -29,7 +29,7 @@ export default function ProductList() {
   const [modalContent, setModalContent] = useState(null);
   const [currentIssue, setCurrentIssue] = useState(null);
 
-  const baseUrl = "http://localhost:5600/api";
+  const baseUrl = "https://it-issue-tracking-api.onrender.com/api";
   useEffect(() => {
     getIssue();
   }, []);
