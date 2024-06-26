@@ -1,0 +1,67 @@
+.widgetLg {
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  flex: 2;
+  width: 90%;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.widgetLgTitle {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.widgetLgTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.widgetLgTh {
+  text-align: left; 
+  padding: 28px;
+}
+
+.widgetLgUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  padding: 0.9rem;
+}
+
+.widgetLgImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widgetLgDate,
+.widgetLgAmount {
+  font-weight: 100;
+  margin: 1rem;
+}
+
+.widgetLgButton {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+.widgetLgButton.approved {
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+.widgetLgButton.declined {
+  background-color: #fff0f1;
+  color: #d95087;
+}
+.widgetLgButton.pending {
+ color: #d95087;
+}
+.widgetLgTr {
+  padding: 1rem;
+}

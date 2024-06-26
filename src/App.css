@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+   margin:0;
+}
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

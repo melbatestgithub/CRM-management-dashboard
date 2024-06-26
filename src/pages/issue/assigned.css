@@ -1,0 +1,27 @@
+.select-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px; /* Adjust padding to control the appearance */
+    font-size: 16px;
+  }
+  
+  .select-option {
+    padding: 10px; /* Adjust padding to add space within the options */
+    cursor: pointer;
+  }
+  
+  /* Apply custom styles to the select dropdown */
+  .select-dropdown::-ms-expand {
+    display: none; /* Hide default arrow in IE */
+  }
+  
+  .select-dropdown:focus {
+    border-color: #000; /* Change border color on focus */
+  }
+  
+  /* Add space between options */
+  .select-option:not(:first-child) {
+    margin-top: 10px; /* Adjust margin to add space between options */
+  }
+  

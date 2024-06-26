@@ -1,0 +1,130 @@
+/* .userList {
+  padding: 1rem;
+  width: 100%;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+} */
+
+.userList {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%; /* Adjust maximum width as needed */
+  width: 600px; /* Set a fixed width for the modal */
+  height: 100%; /* Adjust maximum height as needed */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+ margin-top: 3rem ; /* Ensure modal appears on top of other content */
+}
+
+.modalDel{
+   top: 50%;
+  left: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%; /* Adjust maximum width as needed */
+  width: 600px; /* Set a fixed width for the modal */
+  height: 100%; /* Adjust maximum height as needed */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+ margin-top: 3rem ;  
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+ 
+}
+
+.modal h2 {
+margin-top: 40px;
+
+}
+
+.modalField {
+  margin: 10px;
+ 
+}
+
+.modalField label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.modalField input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #1e5fa4;
+  color: rgb(196, 77, 77);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+margin-bottom: 10px;
+}
+
+
+
+.text-gray-500 {
+  color: #6c757d;
+}
+
+.text-green-500 {
+  color: #28a745;
+}
+
+.text-red-600 {
+  color: #dc3545;
+}
+

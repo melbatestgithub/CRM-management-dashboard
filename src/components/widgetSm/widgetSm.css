@@ -1,0 +1,95 @@
+.widgetSm {
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin: 2rem;
+  width: 400px;
+}
+
+.widgetSmTitle {
+  font-size: 22px;
+  font-weight: 600;
+  width: 100%;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.widgetSmImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.widgetSmList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.widgetSmListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.widgetSmUser {
+  display: flex;
+  flex-direction: column;
+}
+
+.widgetSmUsername {
+  font-weight: 600;
+}
+
+.widgetSmUserTitle {
+  font-weight: 300;
+}
+
+.widgetSmButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+ 
+  color:white;
+  cursor: pointer;
+}
+
+.widgetSmIcon {
+  font-size: 16px !important;
+  margin-right: 5px;
+  color: #ffff;
+}
+
+
+.modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 400px;
+  position: relative;
+}
+.closeIcon {
+  position: absolute;
+  top: 10px;
+  right:10px;
+  cursor: pointer;
+  cursor: pointer;
+  background-color: rgb(234, 49, 49);
+  padding: .2rem;
+  color: white;
+}
