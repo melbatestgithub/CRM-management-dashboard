@@ -46,7 +46,7 @@ const Report = () => {
   useEffect(() => {
     const fetchReportData = async () => {
       try {
-        const res = await axios.get('http://localhost:5600/api/report');
+        const res = await axios.get('https://it-issue-tracking-api.onrender.com/api/report');
         setReportData(res.data);
       } catch (err) {
         console.error('Error fetching report data:', err);
