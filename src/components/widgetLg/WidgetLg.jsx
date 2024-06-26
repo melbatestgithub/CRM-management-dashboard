@@ -5,7 +5,7 @@ import { formatDistanceToNow } from 'date-fns';
 
 export default function WidgetLg() {
   const [issues, setIssues] = useState([]);
-  const baseUrl = "http://localhost:5600/api";
+  const baseUrl = "https://it-issue-tracking-api.onrender.com/api";
 
   useEffect(() => {
     const fetchIssues = async () => {
