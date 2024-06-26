@@ -20,7 +20,7 @@ export default function FeaturedInfo() {
     issuesPercentChange: 4,
     openedIssuesPercentChange: 0,
   });
-  const baseUrl = "http://localhost:5600/api";
+  const baseUrl = "https://it-issue-tracking-api.onrender.com/api";
 
   useEffect(() => {
     const fetchData = async () => {
