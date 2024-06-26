@@ -14,7 +14,7 @@ export default function Feedback() {
   const handleDelete = (id) => {
     setData(data.filter((item) => item.id !== id));
   };
-  const baseUrl = "http://localhost:5600/api";
+  const baseUrl = "https://it-issue-tracking-api.onrender.com/api";
   useEffect(() => {
     getIssue();
   }, []);
