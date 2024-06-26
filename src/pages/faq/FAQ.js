@@ -7,7 +7,7 @@ const FAQ = () => {
     answer: '',
   });
 
-  const baseUrl = "http://localhost:5600/api";
+  const baseUrl = "https://it-issue-tracking-api.onrender.com/api";
   const [faqs, setFaqs] = useState([]);
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
