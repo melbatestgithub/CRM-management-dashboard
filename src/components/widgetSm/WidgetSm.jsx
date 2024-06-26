@@ -6,7 +6,7 @@ import "./widgetSm.css";
 export default function WidgetSm() {
   const [employees, setEmployees] = useState([]);
   const [selectedEmployee, setSelectedEmployee] = useState(null);
-  const baseUrl = "http://localhost:5600/api";
+  const baseUrl = "https://it-issue-tracking-api.onrender.com/api";
 
   useEffect(() => {
     const fetchEmployees = async () => {
